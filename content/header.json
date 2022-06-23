@@ -1,8 +1,9 @@
 {
   "marketing_stripe": {
-    "text": "FRETE GRÁTIS PARA COMPRAS ACIMA DE 100 REAIS",
+    "text": "Frete Grátis para compras acima de 100 reais",
     "link": "",
-    "background": ""
+    "background": "#af9634",
+    "color": "#ffffff"
   },
   "contacts_stripe": {
     "pages": [],
@@ -26,6 +27,6 @@
     "random": 0,
     "full_width": true
   },
-  "desktop_megamenu": false,
+  "desktop_megamenu": true,
   "search_input": true
 }
