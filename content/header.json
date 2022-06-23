@@ -1,6 +1,6 @@
 {
   "marketing_stripe": {
-    "text": "",
+    "text": "FRETE GRÁTIS PARA COMPRAS ACIMA DE 100 REAIS",
     "link": "",
     "background": ""
   },
@@ -12,9 +12,14 @@
   "categories_list": {
     "featured": [
       "/promocoes?PROMOÇÕES",
-      "/pizzas-low-carb?Pizzas Low Carb"
+      "/pizzas-low-carb?Pizzas Low Carb",
+      "/salgados-fits?Salgados Fits",
+      "/doces-fits?Doces Fits",
+      "/snaks?Snaks",
+      "/pastas-e-geleias?Pastas e Geleias",
+      "/a-granel?A Granel"
     ],
-    "random": 4,
+    "random": 0,
     "full_width": true
   },
   "desktop_megamenu": false,
