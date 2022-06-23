@@ -25,8 +25,9 @@
       ]
     },
     {
-      "type": "info-bar",
-      "enabled": false
+      "type": "responsive-banner",
+      "img": "/img/uploads/barr.webp",
+      "mobile_img": "/img/uploads/barr.webp"
     },
     {
       "type": "collection-shelf",
