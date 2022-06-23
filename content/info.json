@@ -1,18 +1,18 @@
 {
   "shipping": {
     "show": true,
-    "text": "Entregamos para todo o Brasil"
+    "text": "FRETE GRÁTIS PARA COMPRAS ACIMA DE 100 REAIS"
   },
   "installments": {
     "show": true,
-    "text": "Parcele sem juros"
+    "text": "PAGUE NA ENTREGA, PIX OU LINK ONLINE CIELO"
   },
   "exchange": {
     "show": true,
-    "text": "Não gostou? A primeira troca é gratuita"
+    "text": "PARCELE SUAS COMPRAS EM 2X SEM JUROS"
   },
   "promo": {
     "show": true,
-    "text": "Diferentes promoções ao longo do ano!"
+    "text": "LOJA 100% SEGURA"
   }
 }
