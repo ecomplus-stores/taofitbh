@@ -17,7 +17,11 @@
       "/doces-fits?Doces Fits",
       "/snaks?Snaks",
       "/pastas-e-geleias?Pastas e Geleias",
-      "/a-granel?A Granel"
+      "/a-granel?A Granel",
+      "/alimentos-saudaveis?Alimentos Saudáveis",
+      "/paes?Pães",
+      "/bebidas?Bebidas",
+      "/suplementos?Suplementos"
     ],
     "random": 0,
     "full_width": true
