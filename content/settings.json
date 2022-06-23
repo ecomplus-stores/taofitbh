@@ -1,7 +1,7 @@
 {
   "domain": "taofitbh.netlify.app",
   "currency_symbol": "R$",
-  "primary_color": "#349625",
+  "primary_color": "#fdfdfd",
   "theme": {
     "bootswatch": "_",
     "custom": "_"
@@ -18,7 +18,7 @@
   "favicon": "/img/uploads/024cc3cc3b.png",
   "icons_font": "_",
   "country_code": "BR",
-  "secondary_color": "#393e46",
+  "secondary_color": "#b0d235",
   "icon": "/img/uploads/7f03f1de75.webp",
   "store_id": 51282,
   "description": "Alimentação saudável muda vidas, traz autoestima e qualidade de vida. Ser Tão fit é optar por alimentos limpos, cuidar do seu corpo e mente, dizer não ao extremismo e ser feliz. Seu estilo de vida pode ser Tão Fit. Vem com a gente!",
