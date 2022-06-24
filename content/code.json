@@ -1,5 +1,5 @@
 {
-  "css": "",
+  "css": "#s-bebidas, #s-suplementos {\n  grid-template-columns: repeat(auto-fit,minmax(50%,1fr)) !important;\n}",
   "html_head": "",
   "html_body": ""
 }
