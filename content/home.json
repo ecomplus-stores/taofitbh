@@ -53,6 +53,19 @@
       "page": 1,
       "sort": "offers",
       "title": "PROMOÇÕES"
+    },
+    {
+      "type": "banner-slider",
+      "autoplay": 9000,
+      "full_width": false,
+      "slides": [
+        {
+          "start": "2022-07-13T18:29:32.645Z",
+          "end": "2022-07-13T18:29:32.659Z",
+          "img": "/img/uploads/img.png",
+          "link": "https://www.instagram.com/taofitbh/"
+        }
+      ]
     }
   ]
 }
