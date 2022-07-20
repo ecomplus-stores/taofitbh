@@ -66,6 +66,10 @@
           "link": "https://www.instagram.com/taofitbh/"
         }
       ]
+    },
+    {
+      "type": "custom-html",
+      "html": "<h2><span>Siga nosso instagram</span><a href=\"https://instagram.com/taofitbh\" target=\"blank\">@taofitbh</a></h2>"
     }
   ]
 }
