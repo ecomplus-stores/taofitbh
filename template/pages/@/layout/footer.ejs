@@ -58,7 +58,7 @@ const themeCustom = _.settings.theme.custom || ''
             <% } %>
             <% if (footer.contacts.address) { %>
               <li>
-                <address>
+                <address style="color:#7C7C7Cb0;">
                   <%= contacts.address %>
                 </address>
               </li>
@@ -160,7 +160,7 @@ const themeCustom = _.settings.theme.custom || ''
         <h2 class="footer__title footer__store">
           <%= footer.description.title || _.settings.name %>
         </h2>
-        <p><%- footer.description.text || _.settings.description %></p>
+        <p style="color:#7C7C7Cb0;"><%- footer.description.text || _.settings.description %></p>
 
         <div class="mt-4 mb-3">
           <p class="footer__payment-methods">
@@ -204,7 +204,7 @@ const themeCustom = _.settings.theme.custom || ''
         <i class="i-chevron-up"></i>
       </button>
     </div>
-  </div>  
+  </div>
 </footer>
 
 <%- await include('@/layout/inc/ecom-credits') %>
