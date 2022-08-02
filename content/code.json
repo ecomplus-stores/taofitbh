@@ -1,5 +1,5 @@
 {
-  "css": "#s-bebidas, #s-suplementos {\n  grid-template-columns: repeat(auto-fit,minmax(50%,1fr)) !important;\n}",
+  "css": "#s-bebidas, #s-suplementos {\n  grid-template-columns: repeat(auto-fit,minmax(50%,1fr)) !important;\n}\n\n.product-card__name {\n  color: #7c7c7c;\n}\n\n.prices.product-card__prices {\n    color: #7c7c7c;\n}",
   "html_head": "",
   "html_body": ""
 }
