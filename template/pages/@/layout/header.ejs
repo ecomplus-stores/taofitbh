@@ -98,7 +98,7 @@ const hasMegamenu = header.desktop_megamenu
                 </a>
               <% } %>
             </div>
-            
+
           <% } %>
         </div>
         <% if (header.contacts_stripe.socials) { %>
@@ -117,7 +117,7 @@ const hasMegamenu = header.desktop_megamenu
   </div>
 </div>
 
-<header class="header" id="header">
+<header class="header" id="header" style="z-index:100;">
   <div class="header__container container-fluid">
     <div class="header__row row">
       <div class="col-auto p-0">
@@ -261,47 +261,48 @@ const hasMegamenu = header.desktop_megamenu
           </div>
         <% } %>
       <% } %>
-
-      <% if (categories && categories.length) { %>
-        <div class="d-none d-lg-block <%= isCategoriesNavFull ? 'col-12 order-lg-last' : 'col' %>">
-          <nav class="header__nav<%= isCategoriesNavFull ? ' header__nav--full' : '' %>">
-            <% categories.forEach(({ slug, name, _id}) => { %>
-              <% let $categoryLink %>
-              <div class="d-inline-block">
-                <a
-                  href="javascript:;"
-                  class="header__category"
-                  id="cd-<%= _id %>"
-                  <%- hasMegamenu
-                    ? `onmouseover="toggleSubmenu('${slug}', this)" onclick="toggleSubmenu('${slug}', this, true)"`
-                    : `onclick="toggleSidenav('${slug}')"` %>
-                >
-                  <%= name %>
-                </a>
-                <%- $categoryLink %>
-                <%  if (slug && hasMegamenu) { %>
-                  <% const subcategories = _.categories.filter(({ parent }) => parent && parent.slug === slug) %>
-                  <% if (subcategories.length) { %>
-                    <nav class="header__submenu" id="<%= `s-${slug.replace(/\//g, '_')}` %>">
-                      <% subcategories.forEach(subcategory => { %>
-                        <div>               
-                          <a id="sd-<%= subcategory._id %>" href="/<%= subcategory.slug %>"><%= subcategory.name %></a>
-                          <% const thirdCategories = _.categories.filter(({ parent }) => parent && parent.slug === subcategory.slug) %>
-                          <% thirdCategories.forEach(thirdCategory => { %>
-                            <a id="td-<%= thirdCategory._id %>" class="header__submenu-subcategory" href="/<%= thirdCategory.slug %>">
-                              <%= thirdCategory.name %>
-                            </a>
-                          <% }) %>
-                        </div>
-                      <% }) %>
-                    </nav>
-                  <% } %>
-                <% } %>
-              </div>
-            <% }) %>
-          </nav>
-        </div>
-      <% } %>
     </div>
   </div>
 </header>
+<div class="top-bar header" style=" background: #a1d30c; z-index:1;">
+  <% if (categories && categories.length) { %>
+    <div style="background:#a1d30c" class="d-none d-lg-block <%= isCategoriesNavFull ? 'col-12 order-lg-last' : 'col' %>">
+      <nav class="header__nav<%= isCategoriesNavFull ? ' header__nav--full' : '' %>">
+        <% categories.forEach(({ slug, name, _id}) => { %>
+          <% let $categoryLink %>
+          <div class="d-inline-block">
+            <a
+              href="javascript:;"
+              class="header__category"
+              id="cd-<%= _id %>"
+              <%- hasMegamenu
+                ? `onmouseover="toggleSubmenu('${slug}', this)" onclick="toggleSubmenu('${slug}', this, true)"`
+                : `onclick="toggleSidenav('${slug}')"` %>
+            >
+              <%= name %>
+            </a>
+            <%- $categoryLink %>
+            <%  if (slug && hasMegamenu) { %>
+              <% const subcategories = _.categories.filter(({ parent }) => parent && parent.slug === slug) %>
+              <% if (subcategories.length) { %>
+                <nav class="header__submenu" id="<%= `s-${slug.replace(/\//g, '_')}` %>">
+                  <% subcategories.forEach(subcategory => { %>
+                    <div>
+                      <a id="sd-<%= subcategory._id %>" href="/<%= subcategory.slug %>"><%= subcategory.name %></a>
+                      <% const thirdCategories = _.categories.filter(({ parent }) => parent && parent.slug === subcategory.slug) %>
+                      <% thirdCategories.forEach(thirdCategory => { %>
+                        <a id="td-<%= thirdCategory._id %>" class="header__submenu-subcategory" href="/<%= thirdCategory.slug %>">
+                          <%= thirdCategory.name %>
+                        </a>
+                      <% }) %>
+                    </div>
+                  <% }) %>
+                </nav>
+              <% } %>
+            <% } %>
+          </div>
+        <% }) %>
+      </nav>
+    </div>
+  <% } %>
+</div>
