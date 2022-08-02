@@ -285,10 +285,10 @@ const hasMegamenu = header.desktop_megamenu
             <%  if (slug && hasMegamenu) { %>
               <% const subcategories = _.categories.filter(({ parent }) => parent && parent.slug === slug) %>
               <% if (subcategories.length) { %>
-                <nav class="header__submenu" id="<%= `s-${slug.replace(/\//g, '_')}` %>">
+                <nav class="header__submenu" style="grid-template-columns: repeat(auto-fit,minmax(100%,1fr));margin-top: 0.5rem;" id="<%= `s-${slug.replace(/\//g, '_')}` %>">
                   <% subcategories.forEach(subcategory => { %>
                     <div>
-                      <a id="sd-<%= subcategory._id %>" href="/<%= subcategory.slug %>"><%= subcategory.name %></a>
+                      <a id="sd-<%= subcategory._id %>"  style="color:#3c3c3c;" href="/<%= subcategory.slug %>"><%= subcategory.name %></a>
                       <% const thirdCategories = _.categories.filter(({ parent }) => parent && parent.slug === subcategory.slug) %>
                       <% thirdCategories.forEach(thirdCategory => { %>
                         <a id="td-<%= thirdCategory._id %>" class="header__submenu-subcategory" href="/<%= thirdCategory.slug %>">
