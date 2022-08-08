@@ -1,5 +1,5 @@
 {
-  "css": "#s-bebidas, #s-suplementos {\n  grid-template-columns: repeat(auto-fit,minmax(50%,1fr)) !important;\n}\n\n.product-card__name {\n  color: #7c7c7c;\n}\n\n.prices.product-card__prices {\n    color: #7c7c7c;\n}\n\n.page-title__head {\n    color: #7d7d77;\n}\n\n.search-engine__option {\n    color: #6a6a6a;\n}",
+  "css": "#s-bebidas, #s-suplementos {\n  grid-template-columns: repeat(auto-fit,minmax(50%,1fr)) !important;\n}\n\n.product-card__name {\n  color: #7c7c7c;\n}\n\n.prices.product-card__prices {\n    color: #7c7c7c;\n}\n\n.page-title__head {\n    color: #7d7d77;\n}\n\n.search-engine__option {\n    color: #6a6a6a !important;\n}",
   "html_head": "",
   "html_body": ""
 }
