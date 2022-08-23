@@ -1,0 +1,37 @@
+{
+  "icons": [
+    {
+      "src": "/icon_512x512.610ba5f17d4b3bf48e6984a4f1664233.webp",
+      "sizes": "512x512",
+      "type": "image/webp"
+    },
+    {
+      "src": "/icon_384x384.610ba5f17d4b3bf48e6984a4f1664233.webp",
+      "sizes": "384x384",
+      "type": "image/webp"
+    },
+    {
+      "src": "/icon_192x192.610ba5f17d4b3bf48e6984a4f1664233.webp",
+      "sizes": "192x192",
+      "type": "image/webp"
+    },
+    {
+      "src": "/icon_128x128.610ba5f17d4b3bf48e6984a4f1664233.webp",
+      "sizes": "128x128",
+      "type": "image/webp"
+    },
+    {
+      "src": "/icon_96x96.610ba5f17d4b3bf48e6984a4f1664233.webp",
+      "sizes": "96x96",
+      "type": "image/webp"
+    }
+  ],
+  "name": "Tão Fit",
+  "short_name": "Tão Fit",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": ".",
+  "description": "Alimentação saudável muda vidas, traz autoestima e qualidade de vida. Ser Tão fit é optar por alimentos limpos, cuidar do seu corpo e mente, dizer não ao extremismo e ser feliz. Seu estilo de vida pode ser Tão Fit. Vem com a gente!",
+  "background_color": "#ffffff",
+  "theme_color": "#a1d30c"
+}
