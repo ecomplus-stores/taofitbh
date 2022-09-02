@@ -36,7 +36,7 @@
       "sort": "news",
       "title": "Últimos adicionados",
       "headless": false,
-      "limit": 12,
+      "limit": 14,
       "page": 1
     },
     {
@@ -52,7 +52,8 @@
       "limit": 12,
       "page": 1,
       "sort": "offers",
-      "title": "PROMOÇÕES"
+      "title": "PROMOÇÕES",
+      "collection_id": "62b45dc4eb8591121661c4b2:categories:PROMOÇÕES:/promocoes"
     },
     {
       "type": "responsive-banner",
